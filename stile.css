@@ -145,15 +145,17 @@ span{
         }
         
         @media only screen and (min-width: 321px) and (max-width:480px) {
-            #avii img{
-                height:200px;
-                width:200px;
+            .container{
+                width:90%;
             }
-            #avii p{
-                font-size:small ;
+            section img{
+                height:100px;
+                width:150px;
+            }
+               section p{ font-size:small ;
             
             }
-            #avii blockquote{
+            section blockquote{
                 font-size:small;
             
             }
@@ -164,15 +166,15 @@ span{
         
         /* Media Query for low resolution  Tablets, Ipads */
         @media only screen and (min-width: 481px) and (max-width: 767px) {
-            #avii img{
+            section img{
                 height:200px;
                 width:300px;
             }
-            #avii p{
+            section p{
                 font-size:medium;
             
             }
-            #avii blockquote{
+            section blockquote{
                 font-size:medium;
             
             }
@@ -183,14 +185,14 @@ span{
         
         /* Media Query for Tablets Ipads portrait mode */
         @media only screen and (min-width: 768px) and (max-width: 1024px) {
-            #avii img{
+            section img{
                 height:300px;
                 width:400px;
             }    
-            #avii p{
+            section p{
                 font-size:medium;    
             }
-            #avii blockquote{
+            section blockquote{
                 font-size:medium ;
             
             }
@@ -198,15 +200,15 @@ span{
         
         /* Media Query for Laptops and Desktops */
         @media only screen and (min-width: 1025px) and (max-width: 1280px) {
-            #avii img{
+            section img{
                 height:400px;
                 width:500px;
             }    
-            #avii p{
+            section p{
                 font-size:large;
             
             }
-            #avii blockquote{
+            section blockquote{
                 font-size:large;
             
             }
@@ -214,14 +216,14 @@ span{
         
         /* Media Query for Large screens */
         @media only screen and (min-width: 1281px) {
-            #avii img{
+            section img{
                 height:400px;
                 width:500px;
             } 
-            #avii p{
+            section p{
                 font-size:large;    
             }
-            #avii blockquote{
+            section blockquote{
                 font-size:large;
             
             }
